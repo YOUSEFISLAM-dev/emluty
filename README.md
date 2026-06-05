@@ -39,20 +39,20 @@ GameLoop is the official PUBG Mobile emulator environment, but many players on l
 
 ```text
 +---------------------------+
-|        emluty CLI/UI      |
+|      emluty CLI/UI        |
 +-------------+-------------+
               |
               v
 +---------------------------+
-|  Compatibility Orchestrator |
+| Compatibility Orchestrator |
 +------+------+-------------+
        |      |
        |      +--> [Matchmaking Identity Adapter] (placeholder)
        |
-       +--------> [Emulator Runtime Adapter] (placeholder)
-                        |
-                        +--> [Resource Optimizer] (placeholder)
-                        +--> [Game Launch Pipeline] (placeholder)
+       +--> [Emulator Runtime Adapter] (placeholder)
+             |
+             +--> [Resource Optimizer] (placeholder)
+             +--> [Game Launch Pipeline] (placeholder)
 
 +---------------------------+
 | Telemetry & Benchmarks    |
